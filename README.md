@@ -36,8 +36,8 @@ The website is designed to showcase the services offered by a consulting company
 ## Setup Instructions
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/consulting-company-website.git
-   cd consulting-company-website
+   git clone https://github.com/Bhusansamal/Consulting-Assignment.git
+   cd consulting-Assignment
    ```
 
 2. **Open the Project**:
