@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Consulting Company</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="header-container">
+        <img src="./assets/logo.jpg" alt="Logo" class="logo" />
+
+        <!-- Hamburger Icon for Mobile -->
+        <div class="hamburger" id="hamburger">
+          <i class="fas fa-bars"></i>
+        </div>
+
+        <nav>
+          <ul class="nav-links" id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#info">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="#careers">Careers</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </nav>
+        <button class="header-btn" >Get a Quote &#8598;</button>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-container">
+        <h1>SHAPING TALENT, TECHNOLOGY & THE FUTURE</h1>
+        <p class="subtitle">
+          Empowering Businesses, Professionals & Students Through Innovation &
+          Expertise
+        </p>
+        <p class="description">
+          Zylentrix Ltd is a global consultancy specialising in IT Solutions,
+          Talent Recruitment, Study Abroad Advisory, and Business Consulting. We
+          help startups, students, and professionals navigate global
+          opportunities and achieve sustainable success.
+        </p>
+        <button class="hero-btn">Get Started Today >></button>
+      </div>
+    </section>
+
+    <!-- Services Card Section -->
+    <section class="card-section">
+      <div class="card-container">
+        <div class="card business">
+          <h3>For Businesses</h3>
+          <p>Grow with IT, recruitment, and consulting solutions.</p>
+          <a href="#">Book a Free Consultation →</a>
+        </div>
+        <div class="card students">
+          <h3>For Students</h3>
+          <p>Find the best universities and career pathways.</p>
+          <a href="#">Get Study Abroad Guidance →</a>
+        </div>
+        <div class="card job-seekers">
+          <h3>For Job Seekers</h3>
+          <p>Secure global opportunities and advance your career.</p>
+          <a href="#">Find Opportunities →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- What we Offer Section -->
+    <section class="services" id="services">
+      <div class="services-container">
+        <div class="services-content">
+          <!-- Left Side: Image -->
+
+          <div class="services-image">
+            <img src="./assets/ServiceLarge.jpg" alt="Services" />
+          </div>
+
+          <!-- Right Side: Text & Service Cards -->
+          <div class="services-info">
+            <h2 class="section-title">What We Offer</h2>
+            <p class="section-subtitle">
+              BRIDGING THE GAP BETWEEN TALENT, TECHNOLOGY & TRANSFORMATION
+            </p>
+            <p class="section-description">
+              Our services are designed to help businesses grow, students
+              succeed, and professionals thrive in a competitive world.
+            </p>
+
+            <div class="services-grid">
+              <div class="service-card">
+                <img class="icon" src="./assets/icon1.svg" />
+                <h3>IT SERVICES & DIGITAL TRANSFORMATION</h3>
+                <p>
+                  Custom Software development,AI and cloud solutions,web &amp;
+                  mobile development.
+                </p>
+                <button class="service-btn">EXPLORE IT SERVICES</button>
+              </div>
+              <div class="service-card">
+                <img class="icon" src="./assets/icon2.svg" />
+                <h3>GLOBAL RECRUITMENT & HR SOLUTIONS</h3>
+                <p>
+                  Talent Sourcing, Executive Search, Visa &amp; Immigration
+                  Advisory.
+                </p>
+                <button class="service-btn">HIRE TALENT</button>
+              </div>
+              <div class="service-card">
+                <img class="icon" src="./assets/icon3.svg" />
+                <h3>STUDY ABROAD & CAREER GUIDANCE</h3>
+                <p>
+                  University Admissions, Visa Assistance,Post-Study Work Support
+                </p>
+                <button class="service-btn">STUDY ABROAD</button>
+              </div>
+              <div class="service-card">
+                <img class="icon" src="./assets/icon4.svg" />
+                <h3>BUSINESS CONSULTING FOR STARTUPS & SMES</h3>
+                <p>
+                  Market Entry Strategy,Finanical Planning,Startup Growth
+                  Advisory
+                </p>
+                <button class="service-btn">GROW YOUR BUSINESS</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section class="contact" id="contact">
+      <div class="contact-container">
+        <!-- Left: Contact Form -->
+        <div class="contact-form-wrapper">
+          <h3>GET IN TOUCH</h3>
+          <h2>Contact Us</h2>
+          <p>
+            We are here to help you 7 days a week and respond within 24 hours.
+            Plus, you can find most answers to your questions right on our
+            <a href="#" class="faq-link">FAQ page</a>.
+          </p>
+          <form class="contact-form">
+            <div class="input-group">
+              <input type="text" id="name" placeholder="Your Name" required />
+            </div>
+            <div class="input-group">
+              <input
+                type="email"
+                id="email"
+                placeholder="Your Email"
+                required
+              />
+            </div>
+            <div class="input-group">
+              <textarea
+                id="message"
+                placeholder="Your Message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+          </form>
+        </div>
+
+        <!-- Right: Company Info -->
+        <div class="contact-info" id="info">
+          <h2>Zylentrix</h2>
+          <p class="company-description">
+            Zylentrix is a multifaceted consultancy that empowers individuals
+            and organizations to achieve their global ambitions. Backed by a
+            diverse team of experts, we provide end-to-end services in
+            education, technology, recruitment, and business consulting—all
+            under one roof.
+          </p>
+          <div class="contact-details">
+            <p><strong>Phone:</strong> +44 799-097-9897</p>
+            <p><strong>Email:</strong> contact@zylentrix.net</p>
+            <p>
+              <strong>Address:</strong> Twist Way, Slough, London, SL22AY,
+              United Kingdom
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- Left: Company Info -->
+        <div class="footer-info">
+          <img src="./assets/logo.jpg" alt="Zylentrix" class="footer-logo" />
+          <p>Shaping Talent, Technology & The Future</p>
+        </div>
+
+        <!-- right: Social Media Links -->
+        <div class="footer-social">
+          <a href="#" class="social-link"
+            ><img src="./assets/linkedin.svg" alt="LinkedIn"
+          /></a>
+          <a href="#" class="social-link"
+            ><img src="./assets//twitter.svg" alt="X"
+          /></a>
+          <a href="#" class="social-link"
+            ><img src="./assets/facebook.svg" alt="Facebook"
+          /></a>
+          <a href="#" class="social-link"
+            ><img src="./assets/youtube.svg" alt="Youtube"
+          /></a>
+          <a href="#" class="social-link"
+            ><img src="./assets/pinterest.svg" alt="Pinterest"
+          /></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
