@@ -104,7 +104,7 @@ The CSS file styles the website:
 ### **3. JavaScript (script.js)**
 The JavaScript file handles user interactions:
 - The `document.getElementById('hamburger')` toggles the mobile navigation menu.
-- The `document.querySelectorAll('.nav-links a')` enables smooth scrolling when clicking on menu links.
+
 
 
 
